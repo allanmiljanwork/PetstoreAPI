@@ -15,7 +15,8 @@ const apiKey = 'special-key';
 request(url)
     .get('/store/inventory')
     .set('api_key', apiKey)
-    
+    .expect(200)
+    .expect('Content-Type', /json/)
     .end(function(err, res) {
         if (err) throw err;
         console.log(res.body);
