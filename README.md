@@ -1,5 +1,6 @@
 Folder screenshots näitab API Testimine tarkvaraga 'Insomnia' ja Swagger
 
+folder HTTPS sisaldab HTTPS eraldi tükeldatud petstore.test.js full file.
 
 petstore.test.js GET POST PUT DELETE meetodid olemas, tekib error sest korraga teeme teeme ID, uuendame ID ja deletime ID korraga, aga see töötab
 
