@@ -12,7 +12,7 @@ const apiKey = 'special-key';
 
 // Test for 405 response kasutades /pet/{petId}
 
-request(url)
+      request(url)
       .put('/pet/1')
       .send({id: 1,  name: [], photoUrls: [], status: ''})
       .set('api_key', apiKey)
@@ -25,7 +25,7 @@ request(url)
       
 
       
-request(url)
+      request(url)
       .patch('/pet/1')
       .send({id: 1,  name: [], photoUrls: [], status: ''})
       .set('api_key', apiKey)
@@ -51,7 +51,7 @@ request(url)
       
 
       
-request(url)
+      request(url)
       .patch('/pet/1')
       .send({id: 1,  name: [], photoUrls: [], status: ''})
       .set('api_key', apiKey)
